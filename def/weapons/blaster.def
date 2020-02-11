@@ -81,16 +81,16 @@ entityDef weapon_blaster
 	"chargeTime"				".8"
 	"chargeDelay"				".1"
 	"chargeGlow"				"0 .4"
-	"fireRate"					".5"
-	"spread"					"10"
+	"fireRate"					".15"
+	"spread"					".2"
 
-//	"def_projectile"			"projectile_blaster"
-	"def_hitscan"				"hitscan_blaster"
+	"def_projectile"			"projectile_blaster"
+	//"def_hitscan"				"hitscan_blaster"
 	"def_altprojectile"			"projectile_blaster_charged"
 	"ammoType"					"ammo_blaster"
 	"clipSize"					"0"
 	"ammoRequired"				"0"
-//	"launchFromBarrel"			"1"
+	"launchFromBarrel"			"1"
 
 	"inv_weapon"				"weapon_blaster"
 	"inv_item"					"5"
@@ -247,7 +247,6 @@ entityDef hitscan_blaster
 	"push"						"7500"
 
 	"impact_gib"				"1"
-
 }
 
 entityDef projectile_blaster
@@ -281,9 +280,6 @@ entityDef projectile_blaster
 	"fx_impact_monstermetal"	"effects/weapons/blaster/impact_monstermetal.fx"
 	"fx_impact_electronics"		"effects/weapons/machinegun/impact_electronics.fx"
 	"fx_impact_armor"			"effects/weapons/machinegun/impact_armor.fx"
-	
-	"fx_teleport_enter"		"effects/mp/item_teleport.fx"
-	"fx_teleport"			"effects/mp/item_teleport.fx"
 }
 
 entityDef projectile_blaster_charged
@@ -293,7 +289,7 @@ entityDef projectile_blaster_charged
 	"mins"						"-8 -8 -8"
 	"maxs"						"8 8 8"
 
-	"velocity"					"250 0 0"
+	"velocity"					"2000 0 0"
 
 	"fx_fly"					"effects/weapons/blaster/charged/fly.fx"
 	"fx_impact"					"effects/weapons/blaster/charged/impact_default.fx"
