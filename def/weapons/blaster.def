@@ -78,18 +78,18 @@ entityDef weapon_blaster
 	"joint_world_flash"			"muzzle_flash"
 
 	// Firing properties
-	"chargeTime"				".8"
-	"chargeDelay"				".1"
+	"chargeTime"				"0"
+	"chargeDelay"				"0"
 	"chargeGlow"				"0 .4"
-	"fireRate"					".15"
+	"fireRate"					".2"
 	"spread"					".2"
 
 	"def_projectile"			"projectile_blaster"
 	//"def_hitscan"				"hitscan_blaster"
 	"def_altprojectile"			"projectile_blaster_charged"
 	"ammoType"					"ammo_blaster"
-	"clipSize"					"0"
-	"ammoRequired"				"0"
+	"clipSize"					"12"
+	"ammoRequired"				"1"
 	"launchFromBarrel"			"1"
 
 	"inv_weapon"				"weapon_blaster"
@@ -97,7 +97,7 @@ entityDef weapon_blaster
 	"inv_icon"					"gfx/guis/hud/icons/item_blaster.tga"
 	"inv_name"					"#str_107400"
 
-//	"gui"						"guis/weapons/blaster_ammo.gui"
+	"gui"						"guis/weapons/blaster_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_blaster"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_blaster"
@@ -259,7 +259,7 @@ entityDef projectile_blaster
 																
 	"def_damage"				"damage_blaster"
 								
-	"velocity"					"1500 0 0"
+	"velocity"					"1600 0 0"
 	"fuse"						"5"
 	"push"						"7500"
 								
@@ -272,12 +272,13 @@ entityDef projectile_blaster
 								
 	"decal_bounce"				""
 	"decal_size"				"8"
-								
-	"fx_fly"					"effects/weapons/blaster/fly.fx"
-	"fx_impact"					"effects/weapons/blaster/impact_default.fx"
+
+
+	"fx_fly"					"effects/weapons/nailgun/fly.fx"
+	"fx_impact"					"effects/weapons/nailgun/impact_default.fx"
 	"fx_impact_water"			"effects/ambient/splash_smll.fx"
-	"fx_impact_flesh"			"effects/weapons/blaster/impact_flesh.fx"
-	"fx_impact_monstermetal"	"effects/weapons/blaster/impact_monstermetal.fx"
+	"fx_impact_flesh"			"effects/weapons/machinegun/impact_flesh.fx"	
+	"fx_impact_monstermetal"	"effects/weapons/machinegun/impact_monstermetal.fx"
 	"fx_impact_electronics"		"effects/weapons/machinegun/impact_electronics.fx"
 	"fx_impact_armor"			"effects/weapons/machinegun/impact_armor.fx"
 }

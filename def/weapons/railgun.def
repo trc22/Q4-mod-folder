@@ -381,7 +381,7 @@ entityDef projectile_railgun
 																
 	"def_damage"				"damage_railgun"
 								
-	"velocity"					"1500 0 0"
+	"velocity"					"1600 0 0"
 	"fuse"						"5"
 	"push"						"7500"
 								
@@ -395,11 +395,11 @@ entityDef projectile_railgun
 	"decal_bounce"				""
 	"decal_size"				"8"
 								
-	"fx_fly"					"effects/weapons/blaster/fly.fx"
-	"fx_impact"					"effects/weapons/blaster/impact_default.fx"
+	"fx_fly"					"effects/weapons/nailgun/fly.fx"
+	"fx_impact"					"effects/weapons/nailgun/impact_default.fx"
 	"fx_impact_water"			"effects/ambient/splash_smll.fx"
-	"fx_impact_flesh"			"effects/weapons/blaster/impact_flesh.fx"
-	"fx_impact_monstermetal"	"effects/weapons/blaster/impact_monstermetal.fx"
+	"fx_impact_flesh"			"effects/weapons/machinegun/impact_flesh.fx"	
+	"fx_impact_monstermetal"	"effects/weapons/machinegun/impact_monstermetal.fx"
 	"fx_impact_electronics"		"effects/weapons/machinegun/impact_electronics.fx"
 	"fx_impact_armor"			"effects/weapons/machinegun/impact_armor.fx"
 }
