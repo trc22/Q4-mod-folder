@@ -95,3 +95,10 @@ _impulse16 - prone	 - x
 _impulse26 - Ldodge      - q
 _impulse27 - Rdodge	 - e
 _impulse24 - Djump	 - space
+
+
+
+
+
+Mod by Timothy Carenza created for
+IT 266
